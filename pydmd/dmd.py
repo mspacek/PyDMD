@@ -20,7 +20,7 @@ class DMD(DMDBase):
     Dynamic Mode Decomposition
 
     :param svd_rank: the rank for the truncation; If 0, the method computes the
-        optimal rank and uses it for truncation; if positive interger, the
+        optimal rank and uses it for truncation; if positive integer, the
         method uses the argument for the truncation; if float between 0 and 1,
         the rank is the number of the biggest singular values that are needed
         to reach the 'energy' specified by `svd_rank`; if -1, the method does
